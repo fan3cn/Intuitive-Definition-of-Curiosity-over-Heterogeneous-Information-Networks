@@ -112,9 +112,10 @@ Except the "NewYork VS Small Town" example mentioned above, we will explain with
 
 Suppose we have the following HIN instances:
 
-![](cb_2.png)
+![Imgur](https://i.imgur.com/01TJp3a.png)
 
-Say $B_1$ and $B_2$ are item nodes with large value of curiosity as connected with many courious users. However, $B_3$ is an "underdog", only few people know its existance. If we only consider user contribution, $B_3$ will probably be ignored by people due to its small curiosity. However, $B_3$ is connected  by two highly curious items $B_1$ and $B2$, we have strong confidence to believe that $B_3$ is more likely to be curious and thus should not be ignored. Therefore, considering item contribution while computing curiosity makes sense in real world  scenario.
+
+Say $B_1$ and $B_2$ are item nodes with large value of curiosity as connected with many courious users. However, $B_3$ is an "underdog", only few people know its existance. If we only consider user contribution, $B_3$ will probably be ignored by people due to its small curiosity. However, $B_3$ is connected  by two highly curious items $B_1$ and $B_2$, we have strong confidence to believe that $B_3$ is more likely to be curious and thus should not be ignored. Therefore, considering item contribution while computing curiosity makes sense in real world  scenario.
 
 
 
